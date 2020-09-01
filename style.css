@@ -12,8 +12,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.time-select,
-.sound-picker {
+.time-select,.sound-picker {
   height: 80%;
   display: flex;
   justify-content: space-evenly;
@@ -21,8 +20,7 @@
   flex-direction: column;
   flex: 1;
 }
-.time-select button,
-.sound-picker button {
+.time-select button,.sound-picker button {
   color: white;
   width: 30%;
   height: 10%;
@@ -69,7 +67,7 @@
 .player-container svg {
   position: absolute;
   height: 50%;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
